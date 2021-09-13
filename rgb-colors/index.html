@@ -18,14 +18,13 @@
 
  <h3>Try it out for yourself...</h3>
  <p>
-   red: <input id="redIn" type="number" value="255"> 
-   green <input id="greenIn" type="number" value="255">
-   blue: <input id="blueIn" type="number" value="0">
+   red: <input id="redIn" type="number" value="255" min="0" max="255" step="5"> 
+   green <input id="greenIn" type="number" value="255" min="0" max="255" step="5">
+   blue: <input id="blueIn" type="number" value="0" min="0" max="255" step="5">
   </p>
 
   <p id="display"></p>
 
-  <p><button id="preview-btn">Preview</button></p>
   <p id="rgbStrOut" class="rgb-code">rgb(255, 255, 0)</p>
   <hr>
 
